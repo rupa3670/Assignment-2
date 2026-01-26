@@ -1,0 +1,67 @@
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.container{
+    background-color: rgba(35, 14, 61, 1);
+    padding: 120px 200px;
+}
+.container h2{
+           text-align: center;
+           font-style: bold;
+           font-weight: 700;
+           font-size: 3rem;
+           margin-bottom: 40px;
+           color: rgba(255, 255, 255, 1);
+}
+.card1{
+    grid-area: card1;
+}
+.card2{
+    grid-area: card2;
+}
+.card3{
+    grid-area: card3;
+}
+.card4{
+    grid-area: card4;
+}
+.card5{
+    grid-area: card5;
+}
+.grid-container{
+    display: grid;
+    gap:30px;
+    grid-template-areas:
+    " card1 card2 card2"
+    " card1 card3 card3"
+    " card4 card4 card5"
+     ;
+  
+    color: rgba(255, 255, 255, 1);
+
+}
+.card{
+    padding: 40px;
+    border-radius: 20px;
+    text-align: left;
+      background-color: #3f0a65;
+     
+}
+.card img{
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+.card h2{
+    font-size: bold;
+    font-size:1.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.card p{
+ font-size: 1rem;
+ font-weight: 400;
+ color:rgb(172, 167, 167);
+
+}
+
