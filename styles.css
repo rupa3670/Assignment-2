@@ -1,9 +1,85 @@
+*{
+    margin:0;
+    padding: 0;
+}
 .font-inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+.nav-bar{
+    background-color: #230E3D;
+    padding: 30px 200px;
+    border-bottom: 1px solid #9100F8;
+}
+.nav-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color:white;
+    font-weight: 700;
+    font-size: 2.3rem;
+     
+}
+.logo span{
+    background: linear-gradient(
+         20deg,
+        #F7E93F,
+        #FB09B4,
+        #9100F8
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.nav-link{
+    display: flex;
+    gap:32px;
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+.nav-link a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+}
+.nav-btn{
+    background: linear-gradient(
+        20deg,
+        #F7E93F,
+        #FB09B4,
+        #9100F8
+    );
+    color:white;
+    border: none;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 12px 16px;
+    gap:4px;
+   border-radius: 60px;
+   cursor: pointer;
+}
+@keyframes btn-animation{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+
+}
+.nav-btn:hover{
+   animation: btn-animation 1s ease-in 1s infinite;
+}
 .container{
-    background-color: rgba(35, 14, 61, 1);
+    background-color: #2c0858;
     padding: 120px 200px;
 }
 .container h2{
@@ -62,7 +138,54 @@
  font-size: 1rem;
  font-weight: 400;
  color:rgb(172, 167, 167);
+}
+.footer-section{
+    background-image:url(../images/footer-bg.png);
+    height: 400px;
+    background-position: center;
+    
+}
+.footer-container{
+    padding: 50px 20px;
+    margin:auto;
+    border-radius: 20px;
+    
+}
+.footer-container h2{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-weight: 800;
+    font-size: 3.6rem;
 
+}
+.footer-container h2 span{
+     background: linear-gradient(
+         20deg,
+        #F7E93F,
+        #FB09B4,
+        #9100F8
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.footer-platform{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    gap:40px;
+}
+.footer-platform span{
+    color: rgb(172, 167, 167);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.copyright{
+    text-align: center;
+    color: rgb(172, 167, 167);
+    font-size: 1rem;
+    margin-top: 50px;
+    
 }
 
 @media screen and (max-width:576px) {
