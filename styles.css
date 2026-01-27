@@ -2,6 +2,9 @@
     margin:0;
     padding: 0;
 }
+body{
+    background-color: #230E3D;
+}
 .font-inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -138,6 +141,56 @@
  font-size: 1rem;
  font-weight: 400;
  color:rgb(172, 167, 167);
+}
+.host{
+
+    color:white;
+    padding: 120px 200px;
+    
+}
+.host h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.host-section{
+    background-color: #3f0a65;
+    display: flex;
+    gap:30px;
+    align-items: center;
+    padding: 30px;
+    border-radius: 25px;
+    margin: auto;
+    
+}
+.host-info h3{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.host-info p{
+    color: rgb(172, 167, 167);
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+.social{
+    display: flex;
+    gap:10px;
+    margin-top: 20px;
+     
+   
+}
+.icon{
+    height: 36px;
+    width: 36px;
+    padding: 5px;
+    border: 1px solid #9100F8;
+    border-radius: 50%;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;
 }
 .footer-section{
     background-image:url(./images/footer-bg.png);
