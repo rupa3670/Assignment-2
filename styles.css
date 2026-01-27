@@ -140,7 +140,7 @@
  color:rgb(172, 167, 167);
 }
 .footer-section{
-    background-image:url(../images/footer-bg.png);
+    background-image:url(./images/footer-bg.png);
     height: 400px;
     background-position: center;
     
