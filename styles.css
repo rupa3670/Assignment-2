@@ -85,6 +85,108 @@ body{
 .nav-btn:hover{
    animation: btn-animation 1s ease-in 1s infinite;
 }
+.hero{
+    background-image: url(./images/hero-bg.png);
+    background-position: center;
+    position: relative;
+    height: 780px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.hero-circle{
+    position: absolute;
+    top:50%;
+    left:50%;
+    height: 340px;
+    width: 340px;
+    transform: translate(-50%, -10%);
+    
+   
+      
+}
+.hero-logo{
+    position: relative;
+
+}
+.new-badge{
+    position: absolute;
+     top: 10px;
+    left: 70px; 
+    background: rgb(65, 227, 65);
+    font-size: 1rem;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+    /* margin-left: 877px; */
+    /* margin-right: 648px; */
+    /* margin-bottom: 609px; */
+    margin-top: -5px;
+}
+.micphn{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-40%, -14%);
+    display: flex;
+    height: 200px;
+    width: 200px;
+    padding:69px 75px 81px 75px;
+}
+.hero-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+ .title{
+    font-size: 3.8rem;
+    color: white;
+    margin-top: 350px;
+    margin-bottom: 16px;
+    text-align: center;
+} 
+.subtitle {
+    font-size: 1rem;
+    color: rgb(172, 167, 167);
+    margin-bottom: 20px;
+}
+.hero-btn{
+    display: flex;
+    gap:12px;
+    justify-content: center;   
+}
+.btn-grp{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+}
+.btn-spotify{
+    color: white;
+    background: linear-gradient(
+        20deg,
+        #F7E93F,
+        #FB09B4,
+        #9100F8
+    );
+    border-radius: 70px;
+
+}
+.btn-msg{
+    color: rgb(13, 178, 13);
+    background-color: transparent;
+    border: 1px solid rgb(13, 178, 13);
+    border-radius: 80px;
+}
 .about{
     padding: 80px 200px;
 }
