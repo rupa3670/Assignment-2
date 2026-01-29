@@ -93,7 +93,7 @@ body {
 }
 
 .nav-btn:hover {
-    animation: btn-animation 1s ease-in 1s infinite;
+    animation: btn-animation 1s ease-in 0.1s infinite;
 }
 
 .hero {
